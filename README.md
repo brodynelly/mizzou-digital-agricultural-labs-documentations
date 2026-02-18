@@ -4,6 +4,15 @@
 
 Welcome to the PAAL  Documentation site! This repository contains the source files for the documentation of the PAAL system, which provides detailed information about the system's architecture, components, and implementation details.
 
+
+## Tech Stack
+
+- **MkDocs** — documentation site generator
+- **MkDocs Material** — theme
+- **Python 3.8+** — required to build and serve docs
+- **GitHub Pages** — deployment target
+
+
 ## Overview
 
 The documentation is built using [MkDocs](https://www.mkdocs.org/) with the Material theme. It is designed to help developers, contributors, and stakeholders understand the PAAL system and its components.

@@ -1,6 +1,8 @@
 # PAAL Documentation
 
-Welcome to the PAAL  Documentation site! This repository contains the source files for the documentation of the PAAL system, which provides comprehensive information about the system's architecture, components, and implementation details.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![CI](https://github.com/brodynelly/mizzou-digital-agricultural-labs-documentations/actions/workflows/ci.yml/badge.svg)](https://github.com/brodynelly/mizzou-digital-agricultural-labs-documentations/actions/workflows/ci.yml) ![MkDocs](https://img.shields.io/badge/MkDocs-Material-teal)
+
+Welcome to the PAAL  Documentation site! This repository contains the source files for the documentation of the PAAL system, which provides detailed information about the system's architecture, components, and implementation details.
 
 ## Overview
 

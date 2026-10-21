@@ -1,5 +1,4 @@
 site_name: PAAL Documentation
-site_url: https://brodynelly.github.io/PAAL-Docs/
 
 nav:
   - Home: index.md
@@ -15,39 +14,14 @@ nav:
       - API Design: backend/api-design.md
       - Data Access Layer: backend/data-access.md
       - Security Measures: backend/security-measures.md
-  # - Architecture:
-  #     - High-Level System Architecture: architecture/high-level-system.md
-  #     - Scalability and Reliability: architecture/scalability-reliability.md
-  #     - Message Queuing and Asynchronous Processing: architecture/message-queuing.md
-  #     - Data Storage Architecture: architecture/data-storage.md
-  #     - Network Architecture: architecture/network-architecture.md
-  #     - Security Architecture: architecture/security-architecture.md
-  # - Database:
-  #     - Database Schema: database/database-schema.md
-  #     - Data Models: database/data-models.md
-  #     - Query Optimization: database/query-optimization.md
-  #     - Data Replication and Backup: database/replication-backup.md
-  #     - Database Technology Choices: database/technology-choices.md
-  # - Internal Structure and Organization:
-  #     - Code Structure and Conventions: internal/code-structure.md
-  #     - Configuration Management: internal/configuration-management.md
-  #     - Dependency Management: internal/dependency-management.md
-  #     - Build and Deployment Pipelines: internal/build-deployment.md
+  - Architecture:
+      - High-Level System Architecture: architecture/high-level-system.md
+  - Database:
+      - Database Schema: database/database-schema.md
+  - Deployment:
+      - Deployment and Recovery Evidence: deployment/deployment-process.md
+  - Internal Structure:
+      - Code Structure and Conventions: internal/code-structure.md
+
 theme:
   name: material
-
-plugins:
-  - search          # full-text search
-  - git-revision-date       # not the full package name
-  - awesome-pages
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/brodynelly/PAAL-Docs
-  copyright: |
-    © 2025 Brody Nelly. All rights reserved.
-markdown_extensions:
-  - admonition
-  - codehilite
-  - toc:
-      permalink: true
